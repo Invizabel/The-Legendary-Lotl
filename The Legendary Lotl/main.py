@@ -77,20 +77,16 @@ def main():
                     sys.exit()
 
                 if event.key == K_DOWN:
-                    lotl_x -= 30
-                    lotl_y += 15
+                    lotl_y += 30
 
                 if event.key == K_LEFT:
                     lotl_x -= 30
-                    lotl_y -= 15
                             
                 if event.key == K_RIGHT:
                     lotl_x += 30
-                    lotl_y += 15
                             
                 if event.key == K_UP:
-                    lotl_x += 30
-                    lotl_y -= 15
+                    lotl_y -= 30
 
         for x in range(1,int(size.current_w/30),3):
             for y in range(1,int(size.current_h/30),3):
